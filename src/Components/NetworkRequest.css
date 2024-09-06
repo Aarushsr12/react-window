@@ -1,0 +1,38 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-header {
+    display: flex;
+    background-color: blue;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .table-row {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-cell {
+    flex: 1;
+    padding: 5px;
+    text-align: left;
+  }
+  
+  .table-cell:nth-child(1) {
+    width: 50px;
+  }
+  
+  .table-cell:nth-child(2) {
+    flex: 2;
+  }
+  
+  .table-cell:nth-child(3),
+  .table-cell:nth-child(4),
+  .table-cell:nth-child(5) {
+    width: 100px;
+  }
+  
